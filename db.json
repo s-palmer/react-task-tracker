@@ -10,7 +10,13 @@
       "id": 3,
       "text": "Ride bike",
       "day": "March 22nd at 9:30am",
-      "reminder": true
+      "reminder": false
+    },
+    {
+      "text": "Take test",
+      "day": "Friday at 5pm",
+      "reminder": false,
+      "id": 4
     }
   ]
 }
