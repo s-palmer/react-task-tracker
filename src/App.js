@@ -85,7 +85,7 @@ const App = () => {
 
     setTasks(
       tasks.map((task) =>
-        task.id === id ? { ...task, reminder: !data.reminder } : task
+        task.id === id ? { ...task, reminder: data.reminder } : task
       )
     );
   };
