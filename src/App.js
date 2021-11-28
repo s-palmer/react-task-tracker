@@ -5,7 +5,7 @@ import { useState } from "react";
 
 
 
-const App = () => { 
+const App = () => {
   const [tasks, setTasks] = useState([
     {
       id: 1,
@@ -27,10 +27,16 @@ const App = () => {
     },
   ])
 
+  // Delete Task
+
+  const deleteTask = (id) => {
+    console.log('delete', id)
+  }
+
   return (
     <div className="container">
       <Header />
-      <Tasks tasks={tasks} />
+      <Tasks tasks={tasks} onDelete={deleteTask} />
     </div>
   );
 }
