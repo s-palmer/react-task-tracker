@@ -1,8 +1,9 @@
-# Getting Started with Create React App
+# React Task Tracker App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* This project is based on the [React JS Crash Course 2021](https://www.youtube.com/watch?v=w7ejDZ8SWv8) by Brad Traversy.
 
-## Available Scripts
+## Skills Learned
+## Usage
 
 In the project directory, you can run:
 
