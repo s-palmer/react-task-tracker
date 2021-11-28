@@ -17,6 +17,12 @@
       "day": "Friday at 5pm",
       "reminder": false,
       "id": 4
+    },
+    {
+      "text": "Hello moto",
+      "day": "This is my life",
+      "reminder": false,
+      "id": 5
     }
   ]
 }
