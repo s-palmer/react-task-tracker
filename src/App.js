@@ -101,7 +101,6 @@ const App = () => {
         <Routes>
           <Route
             path="/"
-            exact
             element={
               <>
                 {showAddTask && <AddTask onAdd={addTask} />}
