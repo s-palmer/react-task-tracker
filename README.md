@@ -3,6 +3,12 @@
 * This project is based on the [React JS Crash Course 2021](https://www.youtube.com/watch?v=w7ejDZ8SWv8) by Brad Traversy.
 
 ## Skills Learned
+
+* Using JSON Server to mimic a backend API
+* Implementing React componets
+* Using API calls within React to get, delete and put.
+* Using Async and Await
+* React routes
 ## Usage
 
 In the project directory, you can run:

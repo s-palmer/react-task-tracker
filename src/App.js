@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
+import TaskDetails from "./components/TaskDetails";
 
 const App = () => {
   const [showAddTask, setShowAddTask] = useState(false);
@@ -101,7 +102,6 @@ const App = () => {
         <Routes>
           <Route
             path="/"
-            exact
             element={
               <>
                 {showAddTask && <AddTask onAdd={addTask} />}
@@ -118,6 +118,7 @@ const App = () => {
             }
           ></Route>
           <Route path="/about" element={<About />} />
+          <Route path="/task/:id" element={<TaskDetails />} />
         </Routes>
         <Footer />
       </div>
