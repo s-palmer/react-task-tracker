@@ -15,7 +15,7 @@
     {
       "text": "Take test",
       "day": "Friday at 5pm",
-      "reminder": true,
+      "reminder": false,
       "id": 4
     },
     {
@@ -23,6 +23,24 @@
       "day": "This is my life",
       "reminder": true,
       "id": 5
+    },
+    {
+      "text": "Add a task",
+      "day": "Today at 3:30",
+      "reminder": true,
+      "id": 6
+    },
+    {
+      "text": "Hello task",
+      "day": "",
+      "reminder": false,
+      "id": 7
+    },
+    {
+      "text": "this is a task",
+      "day": "",
+      "reminder": false,
+      "id": 8
     }
   ]
 }
